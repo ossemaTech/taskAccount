@@ -1,0 +1,126 @@
+button {
+    &:focus {
+        box-shadow: none !important
+    }
+}
+
+/* Style Login */
+.login,
+.register {
+    .modal {
+        .modal-dialog {
+            max-width: 435px;
+
+            .modal-content {
+                .modal-header {
+                    padding: 8px 15px;
+                    border: 0;
+
+                    .close {
+                        font-size: 1.7rem;
+                        font-weight: 500;
+                    }
+                }
+
+                .modal-body {
+                    padding: 0 2rem;
+                    .title-login {
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 20px;
+                        line-height: 32px;
+                        color: #333333;
+                    }
+
+                    .login-social {
+                        margin: 20px 0;
+
+                        .row-social {
+                            margin: auto;
+
+                            .column-fb {
+                                padding-right: .5rem;
+                                margin-bottom: .7rem;
+                                button {
+                                    color: #2388FF;
+                                }
+                            }
+
+                            .column-g {
+                                padding-left: .5rem;
+                                margin-bottom: .7rem;
+                                button {
+                                    color: #666666;
+                                }
+                            }
+
+                            .column-a {
+                                button {
+                                    color: #333;
+                                }
+                            }
+
+                            
+                        }
+
+                        button {
+                            border-radius: 8px;
+                            border-color: #999;
+                            .fa {
+                                padding: 0 5px 0 0;
+                            }
+                        }
+                    }
+
+                    .line-or {
+                        width: 91%;
+                        text-align: center;
+                        border-bottom: 1px solid #EAEAEA;
+                        line-height: 0.1em;
+                        margin: 25px 15px 20px 15px;
+
+                        span {
+                            background: #fff;
+                            padding: 0 10px;
+                        }
+                    }
+
+                    .form-login {
+                        .btn-login {
+                            background: #42CD8C;
+                            border-color: #42CD8C;
+                            box-shadow: 0px 4px 28px rgb(0 0 0 / 15%);
+                            border-radius: 8px;
+                        }
+
+                        .btn-forget {
+                            color: #F3903F;
+                        }
+
+                        
+                    }
+
+                    .desc {
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 170%;
+                        text-align: center;
+                        color: #666666;
+                        height: auto;
+                    }
+                }
+
+                .modal-footer {
+                    background-color: #F4F4F4;
+                    button {
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 170%;
+                        text-align: center;
+                        color: #666666;
+                    }
+                }
+            }
+        }
+    }
+}
